@@ -1,0 +1,20 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev --tunnel-url=https://sbd.au.ngrok.io:3000",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.26.0",
+    "@shopify/cli": "3.26.0",
+    "better-queue": "^3.8.12"
+  },
+  "author": "scottdixon"
+}
